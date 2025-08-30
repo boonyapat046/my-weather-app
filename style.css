@@ -139,3 +139,24 @@ h1 {
     line-height: 24px;
     text-align: center;
 }
+.forecast-container {
+    display: flex;
+    justify-content: space-around;
+    background: #002942;
+    padding: 0.5rem;
+    border-radius: 0 0 0.75rem 0.75rem; /* ทำให้มุมโค้งด้านล่าง */
+    margin-top: -1px; /* ทำให้ขอบต่อกันสนิท */
+    margin-bottom: 1rem;
+}
+.forecast-day {
+    text-align: center;
+    color: #E0E1DD;
+}
+.forecast-day p {
+    margin: 0.2rem 0;
+    font-size: 0.8rem;
+}
+.forecast-day img {
+    width: 40px;
+    height: 40px;
+}
