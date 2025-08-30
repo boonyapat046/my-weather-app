@@ -70,3 +70,72 @@ h1 {
     color: #ff4d4d;
     font-weight: bold;
 }
+/* --- ใช้ CSS เดิมทั้งหมด และเพิ่มส่วนนี้ต่อท้าย --- */
+
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    border-bottom: 1px solid #006494;
+    padding-bottom: 0.5rem;
+}
+
+#refresh-btn {
+    background: none;
+    border: 1px solid #00A6FB;
+    color: #00A6FB;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+#refresh-btn:hover {
+    background: #00A6FB;
+    color: #051923;
+}
+
+#favorites-container {
+    margin-top: 1rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.weather-card {
+    background: #051923;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    border-left: 5px solid #00A6FB;
+    text-align: left;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather-card h3 {
+    margin: 0;
+    color: #E0E1DD;
+}
+
+.weather-card .temp {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.weather-card .remove-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: center;
+}
